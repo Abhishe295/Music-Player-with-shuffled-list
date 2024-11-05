@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0.25s ease;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(135deg, pink,blue);
+    overflow: hidden;
+
+}
+.wrapper{
+    height: 480px;
+    width: 400px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 1rem black;
+}
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+    height: 30px;
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 10px;
+}
+.topnav i{
+    background: linear-gradient(135deg,purple,rgb(252, 143, 161));
+    border-radius: 50%;
+    padding: 2px;
+    color: white;
+}
+.image{
+    margin: 30px 0px 20px 33px;
+    height: 200px;
+    width: 80%;
+    border-radius: 12px;
+    box-shadow: 0 0 0.3rem black;
+}
+.image img{
+    object-fit: cover;
+    height: inherit;
+    width: 100%;
+    border-radius: inherit;
+}
+.displayname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: large;
+}
+.progress{
+    width: 100%;
+    background-color: grey;
+    height: 6px;
+    margin-top: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.progress .progressbar{
+    background: linear-gradient(to left,purple,blue);
+    width: 0px;
+    height: inherit;
+    border-radius: inherit;
+    position: relative;
+    cursor: pointer;
+}
+.progressbar::before{
+    /* display: block; */
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    background: inherit;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -5px;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.25s ease;
+}
+.progress:hover  .progressbar::before{
+    opacity: 1;
+}
+.time{
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+.downbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+}
+.downbar i{
+    transition: all 0.25s ease;
+    font-size: 30px;
+    background: linear-gradient(135deg,purple,rgb(252, 143, 161));
+    border-radius: 50%;
+    padding: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.list{
+
+    padding: 10px;
+    width: 95%;
+    position: absolute;
+    height: 250px;
+    left: 0px;
+    bottom: -50%;
+    background-color: white;
+    opacity: 0;
+    overflow-y: auto;
+    scrollbar-width: none;
+    border-radius: 15px;
+    box-shadow: 0 0 1rem black;
+    pointer-events: none;
+    transition: all 0.25s ease-out;
+}
+.list.show{
+    bottom: 0;
+    opacity: 1;
+    pointer-events: auto;
+}
+.list ::-webkit-scrollbar{
+    display: none;
+}
+.list .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    font-size: large;
+    margin-bottom: 20px;
+    
+    
+}
+.list .nav i{
+    background: linear-gradient(135deg,blue,black);
+    border-radius: 50%;
+    padding: 2px;
+    color: white;
+    cursor: pointer;
+    
+}
+.box{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    font-size: large;
+    cursor: pointer;
+}
+#repeat-list{
+    transition: all 0.25s ease;
+}
+/* li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    border-bottom: 1px solid lightgrey;
+    font-size: large;
+
+
+} */
+ul .playing{
+    color: violet;
+    /* pointer-events: none; */
+}

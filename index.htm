@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FU Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="songs.png" >
+</head>
+<body>
+    <div class="wrapper">
+        <!-- top navbar -->
+        <div class="topnav">
+            <div class="home">
+                <i class="material-icons">home</i>
+            </div>
+            <p id="now">Now Playing</p>
+            <div class="drop">
+                <i class="material-icons">keyboard_arrow_down</i>
+            </div>
+        </div>
+        <!-- image -->
+        <div class="image">
+            <img src="" alt="">
+        </div>
+
+        <div class="displayname">
+            <p id="name"></p>
+            <p id="artist"></p>
+        </div>
+        
+        <div class="progress">
+            <div class="progressbar">
+
+            </div>
+        </div>
+        <audio src="" id="audio"></audio>
+        <div class="time">
+            <span class="current">0:00</span>
+            <span class="duration"></span>
+        </div>
+
+        <div class="downbar">
+            <i class="material-icons" id="repeat-plist" title="Playlist looped">repeat</i>
+            <i class="material-icons previous">skip_previous</i>
+            <i class="material-icons play">play_arrow</i>
+            <i class="material-icons next">skip_next</i>
+            <i class="material-icons repeat" id="more-music">queue_music</i>
+        </div>
+
+        <div class="list">
+            <div class="nav">
+                <i class="material-icons">queue_music</i>
+                <div id="playlist">Playlist</div>
+                <i class="material-icons" id="close">close</i>
+
+            </div>
+            
+            <ul>
+                
+                
+
+            
+            </ul>   
+        </div>
+        
+    </div>
+    <script src="list.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
