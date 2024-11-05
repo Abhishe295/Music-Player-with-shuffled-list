@@ -77,5 +77,31 @@ let all = [
         img: "image13.jpg",
         src:"music13.mp3"
     },
+    {
+        name: "Attention",
+        artist:"Charlie Puth",
+        img: "image14.jpg",
+        src:"music14.mp3"
+    },
+    {
+        name: "Hai apna Dil to awara",
+        artist:"Kishore kumar",
+        img: "image15.jpg",
+        src:"music15.mp3"
+    },
+    {
+        name: "Dil to Bachha hai Ji",
+        artist:"Kishore kumar",
+        img: "image16.jpg",
+        src:"music16.mp3"
+    },
+    {
+        name: "Dancin",
+        artist:"Krono remix",
+        img: "image17.jpg",
+        src:"music17.mp3"
+    },
+
+
 
 ]
