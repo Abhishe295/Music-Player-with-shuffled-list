@@ -184,3 +184,61 @@ ul .playing{
     color: violet;
     /* pointer-events: none; */
 }
+@media (max-width: 550px) {
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        height: 100vh;
+    }
+    
+    .wrapper {
+        
+        box-sizing: border-box;
+    }
+    
+    .wrapper {
+        height: 90vh;
+        width: 90vw;
+        padding: 15px;
+    }
+
+    .topnav {
+        font-size: medium;
+        height: 25px;
+        padding: 3px;
+    }
+
+    .topnav i {
+        padding: 1px;
+    }
+
+    .image {
+        height: 180px;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .displayname {
+        font-size: medium;
+    }
+
+    .downbar {
+        position: relative;
+        bottom: 0;
+        margin-top: 20px;
+    }
+
+    .downbar i {
+        font-size: 24px;
+        padding: 4px;
+    }
+
+    .list {
+        height: 60vh;
+        width: 100%;
+    max-width: 100vw;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    }
+}
