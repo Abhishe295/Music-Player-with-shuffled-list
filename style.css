@@ -135,7 +135,7 @@ body{
 }
 ul{
     position: relative;
-    top: 30px;
+    top: 60px;
     z-index: 0;
 }
 .list.show{
