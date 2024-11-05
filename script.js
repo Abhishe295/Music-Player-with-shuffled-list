@@ -1,4 +1,4 @@
-let wrapper = document.querySelector(".wrapper")
+let wrapper = document.querySelector(".wrapper");
 let image = document.querySelector(".image img");
 let song = document.querySelector(".displayname #name");
 let artist = document.querySelector(".displayname #artist");
