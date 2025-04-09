@@ -101,6 +101,32 @@ let all = [
         img: "image17.jpg",
         src:"music17.mp3"
     },
+    {
+        name: "Die with a smile",
+        artist:"Brono",
+        img: "image18.jpg",
+        music: "music18.mp3"
+    },
+    {
+        name: "Mr. Saxophone",
+        artist:"Alexandar Stan",
+        img: "image19.jpg",
+        src:"music19.mp3"
+
+    },
+    {
+        name: "Counting Stars",
+        artist: "One Republic",
+        img: "image20.jpg",
+        src: "music20.mp3"
+
+    },
+    {
+        name: "Home",
+        artist: "Edward Sharpe",
+        img: "image21.jpg",
+        src: "music21.mp3"
+    }
 
 
 
