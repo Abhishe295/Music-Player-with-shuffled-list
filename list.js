@@ -126,7 +126,32 @@ let all = [
         artist: "Edward Sharpe",
         img: "image21.jpg",
         src: "music21.mp3"
+    },
+    {
+        name: "Feel It",
+        artist: "D4vd",
+        img: "image22.jpg",
+        src: "music22.mpeg"
+    },
+    {
+      name: "Aankhon me doob jaane ko",
+      artist: "The 9teen",
+      img: "image23.jpg",
+      src: "music23.mp3"  
+    },
+    {
+       name: "Maharani",
+       artist: "Arpit bala",
+        img : "image24.jpg",
+        src: "music24.mp3"
+    },
+    {
+        name: "Blinding Lights",
+        artist: "The Weeknd",
+        img: "image25.jpg",
+        src: "music25.mp4"
     }
+
 
 
 
